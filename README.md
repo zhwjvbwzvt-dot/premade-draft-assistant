@@ -1,1 +1,6 @@
 # premade-draft-assistant
+Premade Draft Assistant is a pre-game draft tool for League of Legends premade teams (5-stacks) on EUW. Before a match, the five teammates enter their Riot IDs. The app uses public Riot API data (Account-V1, Match-V5, League-V4) to calculate each player's champion statistics, such as games played, win rate, KDA and CS per minute, and suggests which champions fit each player best. It also checks team composition balance (frontline, engage, damage mix) and uses the enemy team's visible champion picks, plus aggregated champion matchup statistics, to suggest picks and give a short pre-game briefing with laning tips and a general team strategy.
+
+All output is generated from information available before the game starts (draft picks and historical statistics). The app does not use live in-game data, does not provide real-time prompts during a match, and does not track or analyze enemy players. Enemy analysis is limited to the champions picked, never the players behind them. Riot IDs are displayed in place of summoner names. Riot API data is not resold or exposed to other companies; the app only shows its own derived statistics and recommendations to the user.
+
+The product is currently in development as a personal project, and I plan to apply for a production key once a working prototype is ready.
